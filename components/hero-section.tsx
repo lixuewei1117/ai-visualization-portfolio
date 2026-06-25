@@ -102,7 +102,7 @@ export default function HeroSection() {
             ref={titleRef}
             className="mb-3 text-white text-center text-6xl font-extrabold tracking-tighter md:text-[clamp(1.8rem,7.2vw,6.3rem)]"
           >
-            <span className="block" style={{ fontFamily: 'DengXian, 等线, sans-serif', fontWeight: 400, fontSize: '50px' }}>从 UI 设计</span>
+            <span className="block" style={{ fontFamily: 'DengXian, 等线, sans-serif', fontWeight: 400, fontSize: '50px', marginTop: '10px', marginBottom: '10px' }}>从 UI 设计</span>
             <span className="block" style={{ fontFamily: 'DengXian, 等线, sans-serif', fontSize: '60px', background: 'linear-gradient(to right, #2E5BFF, #5DF6A9)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>到 AI 可视化</span>
           </h1>
 

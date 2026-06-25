@@ -51,28 +51,22 @@ export default function ContactSection() {
 
   const socialLinks = [
     {
-      name: 'GitHub',
-      icon: '💻',
-      url: 'https://github.com/yourusername',
-      color: '#FFFFFF',
-    },
-    {
-      name: 'LinkedIn',
-      icon: '💼',
-      url: 'https://linkedin.com/in/yourusername',
-      color: '#0A66C2',
-    },
-    {
-      name: 'Email',
-      icon: '📧',
-      url: 'mailto:your.email@example.com',
-      color: '#EA4335',
-    },
-    {
       name: 'WeChat',
       icon: '💬',
       url: '#',
       color: '#07C160',
+    },
+    {
+      name: 'Email',
+      icon: '📧',
+      url: 'mailto:lixuewei1117@gmail.com',
+      color: '#EA4335',
+    },
+    {
+      name: 'GitHub',
+      icon: '💻',
+      url: 'https://github.com/lixuewei1117',
+      color: '#FFFFFF',
     },
   ]
 
@@ -129,20 +123,6 @@ export default function ContactSection() {
                   </a>
                 ))}
               </div>
-            </div>
-
-            {/* Availability Status */}
-            <div className="contact-item glass rounded-2xl p-6">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                <span className="text-white font-semibold">
-                  当前状态：可接受项目咨询
-                </span>
-              </div>
-              <p className="text-gray-400 text-sm">
-                专注于 AI 可视化、GIS 地理信息系统与数字孪生项目，
-                欢迎企业客户与技术团队联系合作。
-              </p>
             </div>
           </div>
 
